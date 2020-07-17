@@ -21,3 +21,8 @@ The hope is it will be useful at the point when a user has grown their base beyo
 # How it is built
 This block was made possible thanks to the awesome examples provided by the Airtable team, and awesome ports of the key algorithms to JavaScript by the open-source community. The first key algorithm is the Universal Sentence Encoder (USE) which is trained on GBs of English language and projects any sentence into a 512-dimensional vector space so that one can calculate similarities and other relationships. In particular a mini version of USE with 8K vocabulary and able to run out of ~25MBs. The next key algorithm is UMAP dimensionality reduction which can take the 512D vectors and project them into a 2D space, so we can plot them so that our eyes can intuitively pick-up even more relationships. Therefore, the block weaves the power of machine and human intelligence.
 
+# How to remix this block
+1. Create a new base (or you can use an existing base).
+2. Create a new block in your base (see Create a new block, selecting "Remix from Github" as your template.
+3. From the root of your new block, run block run.
+
