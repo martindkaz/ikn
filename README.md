@@ -9,7 +9,7 @@
 - The base has to have a minimum of 5 entries for the algorithms to start working. 
 
 # What it does
-![Interactive Knowledge Network]()
+![Interactive Knowledge Network](network_example_screenshot.jpg)
 
 Simply put, it lets users build and navigate knowledge through their bases. It uses deep net algorithms to present latent (hidden) relationships behind many records, but more importantly for the purpose of letting the user build knowledge using linked records, and then explore connectivity that spans many hops, not just direct or over a couple of links. It also shows users likely related records that may not be yet linked manually. 
 
