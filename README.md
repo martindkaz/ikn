@@ -1,15 +1,14 @@
 # Instructions
-- The block begins with all the records from the view shown
+- The block begins by mapping all the records from the view shown. We recommend you start with a small number of records. The current release does not scale well into triple digit counts. The next release will replace the projection algorithm to support larger record counts. 
 - Best way to start is by entering some context in the input box. 
 - You can use the slider to change the number of top nodes, in terms of their semantic proximity to the current context.
 - Hover over a node to see its dependent relationships and neighbours. A tooltip will show in the bottom-left with the full text information of that node
 - Click a node to expand the record
 - You can pan and zoom 
-- If you have not worked with linked records much, an easy way to delete links is by expanding a record and clicking on the (-)s in the list. New links can be added easy by just starting to type some text. Airtable will find any matching or allow you to create a new one. Just make sure the linked field name is highlighted in the expanded box. 
 - The base has to have a minimum of 5 entries for the algorithms to start working. 
 
 # What it does
-![Interactive Knowledge Network](network_example_screenshot.jpg)
+![Interactive Knowledge Network](network_example_screenshot4.png)
 
 Simply put, it lets users build and navigate knowledge through their bases. It uses deep net algorithms to present latent (hidden) relationships behind many records, but more importantly for the purpose of letting the user build knowledge using linked records, and then explore connectivity that spans many hops, not just direct or over a couple of links. It also shows users likely related records that may not be yet linked manually. 
 
